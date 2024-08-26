@@ -1,7 +1,7 @@
 const pet = {
     name: 'Creole Baker',
     species: 'dog',
-    breed: 'Austrailian shephard',
+    breed: 'Pit bull',
     happiness: 50,
     playWithcreole: function () {
         console.log(`You played with ${this.name}! Happiness is now ${this.happiness + 10}!`);
@@ -25,5 +25,5 @@ console.log(pet.playWithCreole());
 pet.status();
 console.log(pet.feedCreole());
 pet.status();
-pet.rename('shushu');
+pet.rename('shu');
 pet.status();
